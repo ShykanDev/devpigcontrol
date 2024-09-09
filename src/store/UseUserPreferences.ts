@@ -24,8 +24,11 @@ export const UseUserPreferences = defineStore('UseUserPreferences',{
         },
         setFalseShowImages():void{
             this.showImages = false;
+        },
+        setIsPagePaid():void{
+            this.isPaid = !this.isPaid;
         }
     }, 
-    // persist: true
+    persist: true
 
 })
