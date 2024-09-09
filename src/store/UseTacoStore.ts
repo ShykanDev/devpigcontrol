@@ -11,6 +11,7 @@ export const UseTacoStore = defineStore('UseTacoStore', {
         getTacosAmount():number{
             return this.tacosAmount
         },
+
         getTacosPrice():number{
             return this.getTacosPrice
         },
@@ -23,5 +24,5 @@ export const UseTacoStore = defineStore('UseTacoStore', {
             this.tacosPrice = newTacosPrice;
         }
     },
-    persist: true
+    // persist: true
 })

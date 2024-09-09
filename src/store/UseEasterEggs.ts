@@ -568,4 +568,4 @@ export const UseEasterEggs = defineStore("UseEasterEggs", {
     },
   },
 });
-// Esta app es realmente una PWA, ¡puedes usarla sin conexión! Además, se actualiza automáticamente en segundo plano.",
+
