@@ -4,11 +4,15 @@ export const UseUserPreferences = defineStore('UseUserPreferences',{
     state() {
         return{
             showImages:true,
+            isPaid:false,
         }
     },
     getters:{
         getShowImages():boolean{
             return this.showImages;
+        },
+        getIsPagePaid():boolean{
+            return this.isPaid;
         }
     },
     actions:{
@@ -22,6 +26,6 @@ export const UseUserPreferences = defineStore('UseUserPreferences',{
             this.showImages = false;
         }
     }, 
-    persist: true
+    // persist: true
 
 })

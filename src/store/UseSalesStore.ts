@@ -77,5 +77,5 @@ export const UseSalesStore = defineStore('UseSalesStore', {
             this.totalFinancialHistory.unshift(newBackup)
         }
     },
-    persist: true
+    // persist: true
 })
