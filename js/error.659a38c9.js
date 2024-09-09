@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkquick_flow"]=self["webpackChunkquick_flow"]||[]).push([[779],{7481:function(n,r,t){t.r(r),t.d(r,{default:function(){return k}});var u=t(6768);const a={class:""},c=(0,u.Lk)("h1",null,"Error, page could not load contact administrator",-1),o=(0,u.Lk)("h2",null,"Whatsapp:",-1),l=[c,o];function e(n,r){return(0,u.uX)(),(0,u.CE)("div",a,l)}var s=t(1241);const i={},f=(0,s.A)(i,[["render",e]]);var k=f}}]);
-//# sourceMappingURL=error.659a38c9.js.map
